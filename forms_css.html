@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and CSS</title>
+</head>
+<body>
+    <form action="/test">
+        <div>
+            <label for="email" style="color: purple;">Email</label>
+            <input type="email" placeholder="Введите Email" id="email" name="email"/>
+        </div>
+        <div>
+            <label for="telega" style="color:purple;">Telegram</label>
+             <input type="telega" placeholder="Введите свой Telegram" id="telega" name="telega"/>
+        </div>
+        <div> 
+            <select name="Tema" id="Tema">
+                <option value="1">Приобритение курса</option>
+                <option value="2">Обратная связь</option>
+                <option value="3">Жалоба</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <label for="comment">Комментарий</label>
+            <textarea name="comment" id="comment" cols="55" rows="5"></textarea>
+        </div>
+        <div>
+            <button type="submit" style="color: purple;">Отправить</button>
+        </div>
+    </form>
+</body>
+</html>
